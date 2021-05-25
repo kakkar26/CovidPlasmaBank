@@ -1,0 +1,215 @@
+body {
+    height: 100%;
+    font: 15px/1.5 Impact, fantasy;
+    padding :0;
+    margin :0;
+    background-color:white;
+    position: relative;
+    min-height: 100%;
+}
+/*global*/
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+ header{
+    background:white;
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered solid 3px;
+
+ }
+
+ header a{
+     color: black;
+     font: 15px, arial;
+     text-decoration:none;
+     text-transform:capitalize;
+     
+ }
+ 
+ header li{
+     float:left;
+     display:inline;
+     padding: 0 20px 0 20px;
+
+}
+
+header nav{
+    float:right;
+    margin-top:10px; 
+}
+
+header #branding {
+    float:left;
+}
+header #branding h1{
+    margin:0;
+    
+}
+
+header .highlight, .current a{
+    color:  orangered;
+    font-weight: bold;
+}
+header a:hover{
+
+    font-weight: bold;
+    color:rgb(92, 92, 184);
+}
+
+/*showcase*/
+#showcase{
+    
+    min-height: 400px;
+    background:url(imgs/GettyImages_1266352379.0.jpg) center -5px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align: center;
+    border-bottom:  orangered solid 3px;
+}
+    
+
+#showcase h1{
+    margin-top:40px;
+    font-size:55px;
+    margin-bottom:2px;
+    color:orangered;
+
+
+}
+
+#SHOWCASE h2{
+    font-size: 40px;
+    color: black;
+}
+
+.SAVE{
+    font-size: 40PX;
+    color:rgb(43, 41, 41);
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+article p{
+    font-weight: bold italic; 
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+    padding:40px;
+
+}
+.home{
+background-color: grey;
+    border:groove;
+    margin:65px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding:20px;
+    color: white
+}
+/*info*/
+div.info1{
+
+    padding:10px;
+    margin:10px;
+    width: 70%;
+    
+}
+div.info h3{
+    
+    font-size: 28px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(92, 92, 184);
+    font-weight: bold;
+  
+}
+div.info p{
+    
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+}
+
+aside{
+
+    width: 30%;
+    float: right;
+    
+}
+ div.asid{
+    align-items:initial;
+    padding: 20px;
+    border: coral solid 3px;
+    display: flex;
+    flex-direction: column;
+    min-width: 45px;
+    
+}
+.asid figcaption{
+
+    font-size: 25px;
+    font-weight: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*form*/
+
+.sign{
+    border-top: orangered solid 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color:lightgray;
+
+
+}
+form h4 {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+form p{
+
+    color:rgb(92, 92, 184);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button#signup{
+    color: orangered;
+    padding: 10px;
+    margin:10px;
+    font-weight: bold;
+    background-color: rgb(145, 135, 135);
+
+}
+/*footer*/
+footer{
+
+        padding:20px;
+        background:rgb(43, 41, 41);
+        color:white;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+        clear: both;
+        
+        /*position: absolute;*/
+        
+        
+    }
+
